@@ -1,0 +1,7 @@
+scp -r slimpajama_all/RedPajamaArXiv/validation_chunk_all.jsonl slimpajama_20B/RedPajamaArXiv
+scp -r slimpajama_all/RedPajamaBook/validation_chunk_all.jsonl slimpajama_20B/RedPajamaBook
+scp -r slimpajama_all/RedPajamaC4/validation_chunk_all.jsonl slimpajama_20B/RedPajamaC4
+scp -r slimpajama_all/RedPajamaCommonCrawl/validation_chunk_all.jsonl slimpajama_20B/RedPajamaCommonCrawl
+scp -r slimpajama_all/RedPajamaGithub/validation_chunk_all.jsonl slimpajama_20B/RedPajamaGithub
+scp -r slimpajama_all/RedPajamaStackExchange/validation_chunk_all.jsonl slimpajama_20B/RedPajamaStackExchange
+scp -r slimpajama_all/RedPajamaWikipedia/validation_chunk_all.jsonl slimpajama_20B/RedPajamaWikipedia
