@@ -46,9 +46,9 @@ def main():
     elif model_args.modeling_name == "modeling_llama_baseline":
         from modeling.modeling_llama_baseline import LlamaForCausalLM
     elif model_args.modeling_name == "modeling_llama_resformer":
-        from modeling.modeling_llama_resformer import GPT2LMHeadModel
+        from modeling.modeling_llama_resformer import LlamaForCausalLM
     elif model_args.modeling_name == "modeling_llama_svformer":
-        from modeling.modeling_llama_svformer import GPT2LMHeadModel
+        from modeling.modeling_llama_svformer import LlamaForCausalLM
     else:
         raise ValueError(f"Unknown modeling name: {model_args.modeling_name}")
 
