@@ -49,6 +49,10 @@ def main():
         from modeling.modeling_llama_resformer import LlamaForCausalLM
     elif model_args.modeling_name == "modeling_llama_svformer":
         from modeling.modeling_llama_svformer import LlamaForCausalLM
+    elif model_args.modeling_name == "modeling_llama_NeuTRENO_lambda04":
+        from modeling.modeling_llama_NeuTRENO_lambda04 import LlamaForCausalLM
+    elif model_args.modeling_name == "modeling_llama_NeuTRENO_resformer":
+        from modeling.modeling_llama_NeuTRENO_resformer import LlamaForCausalLM
     else:
         raise ValueError(f"Unknown modeling name: {model_args.modeling_name}")
 
