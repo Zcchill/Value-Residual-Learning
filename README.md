@@ -34,3 +34,7 @@ Run `analyze/plot_relative_loss.py`.
 3. BS-RoFormer
    - [github](https://github.com/lucidrains/BS-RoFormer)
    - [model](https://huggingface.co/pcunwa/BS-Roformer-Inst-EXP-Value-Residual)
+  
+4. x-formers
+   - [github](https://github.com/lucidrains/x-transformers)
+   - [code](https://github.com/lucidrains/x-transformers/blob/b8a9add6bb5eb6099e0755869d0caeeda4b1eb31/x_transformers/x_transformers.py#L1949)
