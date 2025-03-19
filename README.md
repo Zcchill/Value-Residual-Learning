@@ -29,8 +29,8 @@ Run `analyze/plot_relative_loss.py`.
 2. rwkv7
    - [twitter](https://x.com/BlinkDL_AI/status/1857442520525119691)
    - [code](https://github.com/BlinkDL/RWKV-LM/blob/a963e4ad848426a7032fd6f7c54bdf59c11b67d7/RWKV-v7/rwkv_v7_demo.py#L276)
-   - [paper] (https://huggingface.co/papers/2503.14456)
+   - [paper](https://huggingface.co/papers/2503.14456)
   
 3. BS-RoFormer
-   - [github] (https://github.com/lucidrains/BS-RoFormer)
-   - [model] (https://huggingface.co/pcunwa/BS-Roformer-Inst-EXP-Value-Residual)
+   - [github](https://github.com/lucidrains/BS-RoFormer)
+   - [model](https://huggingface.co/pcunwa/BS-Roformer-Inst-EXP-Value-Residual)
