@@ -1,5 +1,5 @@
 # Value Residual Learning
-This official repo includes instructions for running Resformer and SVformer introduced in the following [paper](https://arxiv.org/abs/2410.17897): Value Residual Learning For Alleviating  Attention Concentration In Transformers.
+This official repo includes instructions for running Resformer and SVformer introduced in the following paper [Value Residual Learning](https://arxiv.org/abs/2410.17897).
 
 ## Requirement
 `pip install transformers=4.44.2`.
