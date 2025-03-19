@@ -1,5 +1,5 @@
 # Value Residual Learning
-This repo includes instructions for running Resformer and SVformer introduced in the following [paper](https://arxiv.org/abs/2410.17897): Value Residual Learning For Alleviating  Attention Concentration In Transformers.
+This official repo includes instructions for running Resformer and SVformer introduced in the following [paper](https://arxiv.org/abs/2410.17897): Value Residual Learning For Alleviating  Attention Concentration In Transformers.
 
 ## Requirement
 `pip install transformers=4.44.2`.
@@ -20,21 +20,11 @@ Modify the "CACHE" and "CODE_DIR" in the "*.sh" file, then run `bash scripts/run
 Run `analyze/plot_relative_loss.py`.
 
 ## Notable attempts and variants:
-1. modded nanogpt project
-   - [twitter](https://x.com/Grad62304977/status/1854295837741809933)
-   - [github](https://github.com/KellerJordan/modded-nanogpt)
-   - [u-net form value residual](https://github.com/KellerJordan/modded-nanogpt/blob/ad8d5f820e69ecf308467276a87aba7841e4b563/records/020125_RuleTweak/eff63a8c-2f7e-4fc5-97ce-7f600dae0bc7.txt#L392)
+1. modded nanogpt project: [twitter](https://x.com/Grad62304977/status/1854295837741809933) , [github](https://github.com/KellerJordan/modded-nanogpt) , [u-net form value residual](https://github.com/KellerJordan/modded-nanogpt/blob/ad8d5f820e69ecf308467276a87aba7841e4b563/records/020125_RuleTweak/eff63a8c-2f7e-4fc5-97ce-7f600dae0bc7.txt#L392)
 
 
-2. rwkv7
-   - [twitter](https://x.com/BlinkDL_AI/status/1857442520525119691)
-   - [code](https://github.com/BlinkDL/RWKV-LM/blob/a963e4ad848426a7032fd6f7c54bdf59c11b67d7/RWKV-v7/rwkv_v7_demo.py#L276)
-   - [paper](https://huggingface.co/papers/2503.14456)
+2. rwkv7: [twitter](https://x.com/BlinkDL_AI/status/1857442520525119691) , [code](https://github.com/BlinkDL/RWKV-LM/blob/a963e4ad848426a7032fd6f7c54bdf59c11b67d7/RWKV-v7/rwkv_v7_demo.py#L276) , [paper](https://huggingface.co/papers/2503.14456)
   
-3. BS-RoFormer
-   - [github](https://github.com/lucidrains/BS-RoFormer)
-   - [model](https://huggingface.co/pcunwa/BS-Roformer-Inst-EXP-Value-Residual)
+3. BS-RoFormer: [github](https://github.com/lucidrains/BS-RoFormer) , [model](https://huggingface.co/pcunwa/BS-Roformer-Inst-EXP-Value-Residual)
   
-4. x-formers
-   - [github](https://github.com/lucidrains/x-transformers)
-   - [code](https://github.com/lucidrains/x-transformers/blob/b8a9add6bb5eb6099e0755869d0caeeda4b1eb31/x_transformers/x_transformers.py#L1949)
+4. x-formers: [github](https://github.com/lucidrains/x-transformers) , [code](https://github.com/lucidrains/x-transformers/blob/b8a9add6bb5eb6099e0755869d0caeeda4b1eb31/x_transformers/x_transformers.py#L1949)
